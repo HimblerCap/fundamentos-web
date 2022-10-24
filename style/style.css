@@ -27,7 +27,7 @@ nav {
 .container{
     margin: auto;
     overflow: auto;
-    width: 100%;
+    width: 1000px;
 }
 
 .navbar {
@@ -56,4 +56,18 @@ nav ul li a {
     font-size: 16px;
     color: rgb(79,79,95);
     padding: 7px 13px;
+}
+
+/* Body Section */
+
+
+
+
+/* Calculadora */
+.body-calculator {
+    display: flex;
+    margin-top: 2.5rem;
+}
+.button-x { 
+    margin-top: 15px;
 }
