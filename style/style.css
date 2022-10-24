@@ -59,7 +59,64 @@ nav ul li a {
 }
 
 /* Body Section */
+.body {
+    display: flex;
+}
 
+.body-text {
+    width: 50%;
+    padding: 18px;
+}
+
+.body-text h1 {
+    font-size: 2.5rem;
+    color: rgb(8,8,53);
+}
+
+.body-text p {
+    margin-top: 4%;
+    font-size: 12px;
+    color: rgb(79,79,95);
+}
+
+.email-check {
+    margin-top: 15px;
+}
+
+.email-check input {
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    border-radius:9px;
+    background: rgb(238,238,238);
+}
+
+.email-check button {
+    color: #fff;
+    border: none; 
+    outline: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 9px;
+    background: rgb(79,79,95);
+}
+
+.btn {
+    border:none;
+    outline: none;
+    color: #2b2d42;
+    cursor: pointer;
+    margin-top: 40px; 
+    padding: 6px 24px;
+    border-radius: 30px;
+    border: 1px solid #2b2d42;
+}
+
+.body-pic img{
+    width: 400px;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
 
 
 
